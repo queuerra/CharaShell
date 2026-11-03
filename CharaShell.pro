@@ -14,7 +14,7 @@ SOURCES += src/main.cpp src/NativeRig.cpp src/NativeRigItem.cpp src/miniaudio.c 
     src/Thinker.cpp src/Speaker.cpp src/ConversationManager.cpp src/System2Client.cpp src/SpeechCoordinator.cpp src/Settings.cpp src/SetupManager.cpp src/StartupManager.cpp
 HEADERS += $$files($$PWD/include/*.hpp)
 RESOURCES += qml/qml.qrc resources/voice-design.qrc resources/native-avatar.qrc resources/icons.qrc resources/prompts.qrc resources/thinking.qrc resources/backgrounds.qrc
-DISTFILES += qml/Main.qml qml/qmldir README.md LICENSE $$files($$PWD/images/*) \
+DISTFILES += qml/Main.qml qml/qmldir README.md README.en.md LICENSE $$files($$PWD/images/*) \
     scripts/build-qmake.ps1 scripts/prepare-qtcreator.ps1 scripts/deploy-qmake.ps1
 
 !contains(CONFIG, http_only) {

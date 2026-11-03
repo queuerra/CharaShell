@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title description">
+  <title id="title">Roles of System 1 and System 2</title>
+  <desc id="description">System 1 responds quickly and passes complex problems to System 2. System 2 takes more time to provide a more accurate answer.</desc>
+  <rect width="900" height="430" rx="16" fill="#202020"/>
+  <g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="140" cy="184" r="30"/>
+    <path d="M 85 285 V 274 C 85 239 108 222 140 222 C 172 222 195 239 195 274 V 285"/>
+    <path d="M 410 147 C 410 61 259 55 195 133"/>
+    <path d="M 196 116 L 195 133 L 212 129"/>
+    <path d="M 510 193 H 630 M 614 182 L 630 193 L 614 204"/>
+    <path d="M 748 240 C 748 366 356 382 210 275"/>
+    <path d="M 227 275 L 210 275 L 215 292"/>
+  </g>
+  <g fill="#fff" font-family="Segoe UI" text-anchor="middle">
+    <text x="140" y="326" font-size="22">User</text>
+    <text x="410" y="204" font-size="32" font-weight="600">System 1</text>
+    <text x="748" y="204" font-size="32" font-weight="600">System 2</text>
+    <text x="315" y="53" font-size="22">Fast response</text>
+    <text x="570" y="160" font-size="20">Complex problems</text>
+    <text x="515" y="391" font-size="22">Slower, more accurate response</text>
+  </g>
+</svg>
