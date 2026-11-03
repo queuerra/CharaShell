@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/CharaShell">
+    <file alias="Main.qml">Main.qml</file>
+    <file alias="Theme.qml">Theme.qml</file>
+    <file alias="AvatarView.qml">AvatarView.qml</file>
+    <file alias="LoadingSpinner.qml">LoadingSpinner.qml</file>
+    <file alias="qmldir">qmldir</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,52 @@
+# Local builds, downloaded dependencies and runtime assets
+/build*/
+/cmake-build-*/
+/models/
+/voices/
+/third_party/
+/assets/
+
+# Qt Creator, CMake and editor settings
+*.user
+*.user.*
+/CMakeUserPresets.json
+/.vs/
+/.vscode/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# Compiler output and temporary downloads
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.part
+*.tmp
+*.log
+
+# Local credentials and conversation data
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+history.json
+history-summary.json
+dialogue-turns.json
+
+# Python and OS caches
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,5 @@
+module CharaShell
+Main 1.0 Main.qml
+Theme 1.0 Theme.qml
+AvatarView 1.0 AvatarView.qml
+LoadingSpinner 1.0 LoadingSpinner.qml

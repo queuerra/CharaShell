@@ -1,0 +1,5 @@
+<RCC><qresource prefix="/prompts">
+  <file alias="system1.txt">prompts/system1.txt</file>
+  <file alias="system2.txt">prompts/system2.txt</file>
+  <file alias="history-summary.txt">prompts/history-summary.txt</file>
+</qresource></RCC>

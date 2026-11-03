@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "id": "asr", "kind": "Models", "filename": "asr/Haas-616M-ja-v1.0-Q8_0.gguf",
+      "url": "https://huggingface.co/sakasegawa/Haas-ja-v1.0-GGUF/resolve/6b965d5007ba780585de51549d57a8c1c0d67c7e/Haas-616M-ja-v1.0-Q8_0.gguf",
+      "size": 656381472, "sha256": "cd5f60b2f1c411404b83fca4a65e3ce30a26d9e951b6a346529e65f22758afeb"
+    },
+    {
+      "id": "asr", "kind": "Models", "architecture": "x64", "filename": "asr/native/speech-0.9.4-windows-x64-vulkan.zip",
+      "url": "https://github.com/nyosegawa/speech.cpp/releases/download/v0.9.4/speech-0.9.4-windows-x64-vulkan.zip",
+      "size": 29408903, "sha256": "68704a0a13b3a1aa59c697c9ee9c915b0c7a6bfe3fde52c7dc4cc7eb1a49685b",
+      "extract": "asr/native", "required": "speech.dll"
+    },
+    {
+      "id": "llm", "kind": "Models", "filename": "models/gemma-4-e2b-qat/gemma-4-E2B_q4_0-it.gguf",
+      "url": "https://huggingface.co/google/gemma-4-E2B-it-qat-q4_0-gguf/resolve/675cff42a74c774d6cb76f76d8eacb49b48c9b93/gemma-4-E2B_q4_0-it.gguf",
+      "size": 3349516256, "sha256": "fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634"
+    },
+    {
+      "id": "tts", "kind": "Models", "filename": "irodori/q8/Irodori-TTS-866M-MF-v4.1-Q8_0.gguf",
+      "url": "https://huggingface.co/sakasegawa/Irodori-TTS-v4.1-Small-MF-GGUF/resolve/9db7da1bec3d1069ef8e29732e0497be60c7b047/Irodori-TTS-866M-MF-v4.1-Q8_0.gguf",
+      "size": 1207133984, "sha256": "2d161b0bbcd74f906f6b07e03d031075f8ae916db1b8bd4daf16cb37b451086a"
+    },
+    {
+      "id": "tts", "kind": "Models", "architecture": "x64", "filename": "irodori/native/speech-0.8.3-windows-x64-vulkan.zip",
+      "url": "https://github.com/nyosegawa/speech.cpp/releases/download/v0.8.3/speech-0.8.3-windows-x64-vulkan.zip",
+      "size": 30537244, "sha256": "8c5f199aecf972cb214b5df9d91400108b07cdd7428ae985891a944ca077b976",
+      "extract": "irodori/native", "required": "speech.dll"
+    },
+    {
+      "id": "llama", "kind": "Servers", "backend": "cpu", "architecture": "arm64", "filename": "llama-arm64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11960/llama-b11960-bin-win-cpu-arm64.zip",
+      "size": 13018162, "sha256": "77349357c38da235bb0eed37bcc5ecf3efef21bb5dc42c2269589c0e71cfa00f",
+      "extract": "llama", "required": "llama-server.exe"
+    },
+    {
+      "id": "llama", "kind": "Servers", "backend": "cpu", "architecture": "x64", "filename": "llama-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11960/llama-b11960-bin-win-cpu-x64.zip",
+      "size": 24407745, "sha256": "73f962f82850d244db47eaacb9d913637027b82399124324298576d58c5f4287",
+      "extract": "llama", "required": "llama-server.exe"
+    },
+    {
+      "id": "llama", "kind": "Servers", "backend": "cuda", "architecture": "x64", "filename": "llama-cuda-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11960/llama-b11960-bin-win-cuda-12.4-x64.zip",
+      "size": 279763224, "sha256": "8d9d819261de10cc2f03921b8b79c779c5c458e21edb60c170ee30a7d462d684",
+      "extract": "llama-cuda", "required": "llama-server.exe"
+    },
+    {
+      "id": "llama", "kind": "Servers", "backend": "cuda", "architecture": "x64", "filename": "llama-cudart-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11960/cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "size": 391443627, "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+      "extract": "llama-cuda", "required": "cudart64_12.dll"
+    },
+    {
+      "id": "tts", "kind": "Models", "filename": "irodori/LICENSE-MIT",
+      "url": "https://huggingface.co/sakasegawa/Irodori-TTS-v4.1-Small-MF-GGUF/resolve/69d307a472a1708c5637edcfe376d31c2685829d/LICENSE-MIT",
+      "size": 1064, "sha256": "dfd47cc99fd79cced8e0cab04ed81f70b3d4f2f475a75746b341671bd3991c00"
+    },
+    {
+      "id": "tts", "kind": "Models", "filename": "irodori/LICENSE-APACHE-2.0",
+      "url": "https://huggingface.co/sakasegawa/Irodori-TTS-v4.1-Small-MF-GGUF/resolve/69d307a472a1708c5637edcfe376d31c2685829d/LICENSE-APACHE-2.0",
+      "size": 11358, "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "id": "tts", "kind": "Models", "filename": "irodori/native/LICENSE-speech.cpp",
+      "url": "https://raw.githubusercontent.com/nyosegawa/speech.cpp/7ac99697cd680c78beef482955279ef15d4421c7/LICENSE",
+      "size": 1067, "sha256": "688f8aca0abe167966d277ed00bd594a5a51b028a4fbc1516ff9de7ef05c521a"
+    }
+  ]
+}

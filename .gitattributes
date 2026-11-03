@@ -1,0 +1,28 @@
+# Keep source diffs consistent across Windows and other platforms.
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+CMakeLists.txt text eol=lf
+LICENSE text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.cpp text eol=lf
+*.c text eol=lf
+*.hpp text eol=lf
+*.h text eol=lf
+*.qml text eol=lf
+qmldir text eol=lf
+*.qrc text eol=lf
+*.pro text eol=lf
+*.pri text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+
+# Embedded artwork, meshes and voice features must remain byte-for-byte intact.
+*.png binary
+*.psd binary
+*.mesh binary
+*.gguf binary
+*.wav binary
+*.zip binary

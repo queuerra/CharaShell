@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/voice-design">
+    <file>voice-design-reference.txt</file>
+  </qresource>
+</RCC>

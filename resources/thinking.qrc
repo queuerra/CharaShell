@@ -1,0 +1,11 @@
+<RCC><qresource prefix="/thinking">
+  <file alias="sprite-sheet.png">thinking/sprite-sheet.png</file>
+  <file alias="frame-00.png">thinking/frame-00.png</file>
+  <file alias="frame-01.png">thinking/frame-01.png</file>
+  <file alias="frame-02.png">thinking/frame-02.png</file>
+  <file alias="frame-03.png">thinking/frame-03.png</file>
+  <file alias="frame-04.png">thinking/frame-04.png</file>
+  <file alias="frame-05.png">thinking/frame-05.png</file>
+  <file alias="frame-06.png">thinking/frame-06.png</file>
+  <file alias="frame-07.png">thinking/frame-07.png</file>
+</qresource></RCC>
